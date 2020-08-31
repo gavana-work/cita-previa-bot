@@ -1,5 +1,5 @@
 # Function
-Uses Firefox to quickly autofill all the intial screens for getting an appointment(cita) for the intial issuing of a Spanish TIE
+Uses Firefox to quickly autofill all the initial screens for getting an appointment(cita) for the initial issuing of a Spanish TIE
 
 # Purpose
 This was created because Spain's national police appointment system is notoriously bad. Often appointments are not available because small amounts of appintments are periodcially made available at unknown times and dates. This causes many people to repeat the cita reservation procedure hundreds of times over a month or more to randomly get lucky with a sucessful cita reservation. Therefore this script can help to save lots of time and energy from being wasted during someone's cita journey.
