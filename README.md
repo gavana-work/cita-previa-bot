@@ -12,7 +12,7 @@ After following the prerequisites below run the script without arguments.
 
 # Prerequisites
 
-**Basics**
+**Basics**  
 Ensure the following is complete:
 - Fill out the "input - personal details" section under GLOBAL VARIABLES
 - Use Linux or change the paths above under "static - config"
@@ -24,7 +24,7 @@ Ensure the following is complete:
 pip install selenium
 ```
 
-**Prepare the Firefox profile**
+**Prepare the Firefox profile**  
 Follow this procedure:
 - Using firefox manually go to the "cita_url"
 - Enter your details and go past the captcha point to generate a Google from cookie
@@ -39,19 +39,19 @@ cp -r /home/gavin/.mozilla/firefox/xoawdc95.default/* /workspace/cita-previa-bot
 ### Issue 1    
 Using selenium will fill the /tmp folder of any linux system.
 
-**Solution**
+**Solution**  
 Periodically restart the system or clean the /tmp folder.
 
 ### Issue 2
 The captcha will eventually distinguish this script as a bot after a string of attempts. The number of attempts before the captacha knows can vary anywhere from 10 - 40, sometimes more.
 
-**Workaround** 
+**Workaround**  
 When the script encounters a failed attempt to proceed past a captcha python will go to debug mode.
 - Manually solve the captcha and stay on the current page
 - Go back to the CLI and you will see a python debug prompt - press c(ontinue)
 - Repeat the process
 
-**Solution**
+**Solution**  
 Follow this procedure:
 - Wait some time
 - Refresh the contents of the "firefox-profile-copy" directory
@@ -60,5 +60,5 @@ Follow this procedure:
 ### Issue 3
 There is no proper automated method to exit the script.
 
-**Solution**
+**Solution**  
 On the CLI press "CTRL+C" at anytime, firefox instances will close when the firefox GUI is closed.
